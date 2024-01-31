@@ -1,8 +1,0 @@
-Exam consists of : 
-Phase 1: (Syntax Errors)
-    - 6 tasks
-Phase 2: (Problem Solvig)
-    - One Problem
-Phase 3: (Logical Errors)
-    - 2 tasks
-
