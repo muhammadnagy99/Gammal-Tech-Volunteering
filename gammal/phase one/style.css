@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #008080;
+  margin-bottom: 10px;
+  position: fixed;
+  top: 0px;
+  right: 25px;
+  background-color: #fff;
+  padding: 5px 10px;
+  margin-right: 100px;
+  border-radius: 5px;
+  /* padding-right:130px ; */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: rgb(9, 69, 70);
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.time {
+  padding-right: 130px;
+}
+
+.sections {
+  display: flex;
+  padding-right: 130px;
+}
+
+.sections a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.nextButton.disabled {
+  background-color: #ccc;
+  /* Set background color for the disabled Next Question button */
+  cursor: not-allowed;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+  padding-left: 100px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(9, 69, 70);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000;
+}
+
+.main {
+  margin-top: 80px;
+}
+
+p {
+  text-align: center;
+}
+
+/**/
+.two-column-container {
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 40px; */
+  /* Adjust as needed */
+}
+
+.text-and-choices-column {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* flex: 0 0 30%; */
+  height: 355px;
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  border: 2px solid rgb(9, 69, 70);
+  transition: background-color 0.3s, color 0.3s, border-color 1s ease;
+  /* Updated for border-color */
+  /* Add border around the text and choices */
+  border-radius: 8px;
+  /* Adjust as needed for rounded corners */
+}
+
+.image-column {
+  margin-right: 50px;
+  width: 1200px;
+  height: 400px;
+  flex: 0 0 70%;
+  border-radius: 8px;
+  /* Adjust as needed for rounded corners */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(9, 69, 70);
+}
+
+.container2 button {
+  width: 250px;
+  padding: 3.5px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #ccc;
+  /* Set initial background color to gray */
+  border: 2px solid #ccc;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: not-allowed;
+  /* Set initial cursor to not-allowed */
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s, cursor 0.3s;
+  /* Add cursor to transition property */
+}
+
+.container2 button:hover {
+  background-color: #ccc;
+  /* Keep the hover color gray until a choice is clicked */
+  color: white;
+}
+
+.outlined-button {
+  margin: 3px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  color: #000;
+  /* Set the text color to white */
+  background-color: #fff;
+  border: 2px solid rgb(9, 69, 70);
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 300px;
+  height: 40px;
+}
+
+.outlined-button.highlighted {
+  background-color: #008080;
+  color: #fff;
+}
+
+.outlined-button:hover {
+  border-color: #fff;
+  /* Added for border-color on hover */
+  background-color: rgb(9, 69, 70);
+  color: #fff;
+}
+
+.nextButton {
+  margin-top: 10px;
+  color: #000;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: rgb(9, 69, 70);
+  color: #f7f9f9;
+  padding: 10px;
+  position: fixed;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.cpy_right {
+  text-align: center;
+  height: 10px;
+  padding-bottom: 5px;
+}
+
+.container2 button.disabled {
+  background-color: #ccc;
+  /* Set background color for the disabled Next Question button */
+  cursor: not-allowed;
+}
